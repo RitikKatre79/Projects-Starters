@@ -1,7 +1,7 @@
 function changeCntent(page){
     var div1 = document.getElementById('content');
     switch(page){
-        case home:
+        case 'home':
         div1.innerHTML=`<img src= shamsung.png>
         <h2>
         Welcome to the home page
@@ -11,7 +11,7 @@ function changeCntent(page){
         </p>
         `;
         break;
-        case about:
+        case 'about':
         div1.innerHTML=`
         <h2>About us</h2>
         <p>
@@ -23,7 +23,7 @@ function changeCntent(page){
         </p>
         `;
         break;
-        case contact:
+        case 'contact':
         div1=`<h2>contact us</h2>
         <p>
         feel free to reach us 
