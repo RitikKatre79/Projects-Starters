@@ -1,4 +1,4 @@
-function changeCntent(page){
+function ChangeContent(page){
     var div1 = document.getElementById('content');
     switch(page){
         case 'home':
@@ -24,7 +24,7 @@ function changeCntent(page){
         `;
         break;
         case 'contact':
-        div1=`<h2>contact us</h2>
+        div1.innerHTML=`<h2>contact us</h2>
         <p>
         feel free to reach us 
         </p>
